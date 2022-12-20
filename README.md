@@ -1,6 +1,6 @@
 # TASKS
 
-Mini CRUD hecho con:
+Mini-CRUD made with:
 <ul>
     <li>React</li>
     <li>TypeScript</li>
