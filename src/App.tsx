@@ -27,7 +27,7 @@ function App(): JSX.Element {
   }
 
   return (
-    <div className="bg-dark text-white" style={{ height: '100vh' }}>
+    <div className="bg-dark text-white" style={{ minHeight: '100vh' }}>
       <nav className='navbar navbar-dark bg-primary'>
         <div className='container'>
           <div className='navbar-brand'>
