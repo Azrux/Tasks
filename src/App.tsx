@@ -14,12 +14,8 @@ function App(): JSX.Element {
     completed: false
   }])
 
-  function getCurrentTime(){
-    return new Date().getTime()
-  }
-
   function addNewTask(task: Task) {
-    setTasks([...tasks, {...task, id: getCurrentTime(), completed: false}])
+    setTasks([...tasks, {...task, id: tasks.length + 1, completed: false}])
   }
 
   function deleteTask(id: number) {
